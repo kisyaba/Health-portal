@@ -14,6 +14,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Db
 
-Run `npm run server` runs the json db setup for this application
+Open another terminal and run `npm run server` to start the mock server
 
 
