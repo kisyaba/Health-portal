@@ -1,0 +1,57 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Jwala",
+      "phone": "0621801467",
+      "email": "bahati.lajoie@gmail.com",
+      "address": "home.com",
+      "member_since": "Yesterday"
+    },
+    {
+      "id": 2,
+      "name": "Joy",
+      "phone": "0621801555",
+      "email": "bahati.lajoie@gmail.com",
+      "address": "home.com",
+      "member_since": "loading"
+    }
+  ],
+  "appointments": [
+    {
+      "id": 2,
+      "date": "Date",
+      "doctor_name": "Mighty",
+      "medical_specialty": "string",
+      "branch_add": "string"
+    },
+    {
+      "id": 3,
+      "date": "2022-07-12",
+      "doctor_name": "DR Peters",
+      "medical_specialty": "Surgeon",
+      "branch_add": "Town"
+    },
+    {
+      "id": 4,
+      "date": "2022-07-13",
+      "doctor_name": "Dr Cox",
+      "medical_specialty": "Emergency",
+      "branch_add": "Sydney"
+    },
+    {
+      "id": 5,
+      "date": "2022-07-20",
+      "doctor_name": "Dr James",
+      "medical_specialty": "Emergency",
+      "branch_add": "Sydney"
+    },
+    {
+      "id": 6,
+      "date": "2022-07-20",
+      "doctor_name": "Dr Danilo",
+      "medical_specialty": "Surgeon",
+      "branch_add": "Germany"
+    }
+  ]
+}

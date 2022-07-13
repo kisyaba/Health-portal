@@ -1,0 +1,4 @@
+
+<div *ngIf="appointment.length > 0">
+    <appointments (status)="getStatus($event)" [appointment]="appointment"></appointments>
+</div>

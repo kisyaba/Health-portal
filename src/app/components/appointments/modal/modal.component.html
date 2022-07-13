@@ -1,0 +1,13 @@
+<div *ngIf="appointment" class="card">
+    <div class="card-body">
+        <h4 class="card-title">Appointment detail</h4>
+        <p class="card-text">Date: {{appointment.date}}</p>
+        <p class="card-text">Doctor name: {{appointment.doctor_name}}</p>
+        <p class="card-text">Medical speciality: {{appointment.medical_specialty}}</p>
+        <p class="card-text">Branch address: {{appointment.branch_add}}</p>
+    </div>
+    <div class="card-footer">
+        <button type="button" class="btn btn-danger me-2" (click)="delete(appointment.id)">Delete</button>
+        <button type="button" class="btn btn-primary" (click)="activeModal.close('Close click')">Close</button>
+    </div>
+</div>

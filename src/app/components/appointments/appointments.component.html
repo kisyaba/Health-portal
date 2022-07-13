@@ -1,0 +1,22 @@
+<div class="container-md" >
+<table *ngIf="appointment.length > 0" class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>Doctor Name</th>
+            <th>Medical Specialty</th>
+            <th>Branch address</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of appointment" (click)="open(data)" style="cursor: pointer;">
+            <td scope="row">{{data.id}}</td>
+            <td>{{data.date}}</td>
+            <td>{{data.doctor_name}}</td>
+            <td>{{data.medical_specialty}}</td>
+            <td>{{data.branch_add}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>
